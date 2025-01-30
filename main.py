@@ -16,7 +16,7 @@ my_info = {
     "github_url": "https://github.com/john-otienoh/HNG-12-internship"    
 }
 
-@app.get("/info", response_model=BasicInfo)
+@app.get("/", response_model=BasicInfo)
 async def get_my_info():
     "Retreive Basic information"
 
