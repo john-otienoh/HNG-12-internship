@@ -11,29 +11,38 @@ The GitHub URL of the project's codebase.
 
 Technology Stack:
 Programming Language/Framework: Python - (FastAPI)
-Deployment: The API must be deployed to a publicly accessible endpoint.
+Deployment: The API must be deployed to a publicly accessible endpoint: Used <Render.com>
 CORS Handling: Ensure the API handles Cross-Origin Resource Sharing (CORS) appropriately.
 Response Format: All responses must be in JSON format.
+Eg
+
+```json
+    {
+        "email": "your-email@example.com",
+        "current_datetime": "2025-01-30T09:30:00Z",
+        "github_url": "<https://github.com/yourusername/your-repo>"
+    }
+```
 
 ## Running the project Locally
 
 - Create a python virtual environment
 
 ```bash
-
+    python -m venv
+```
 
 - Install the necessary requirements
 
 ```bash
-    pip install fastapi
+    pip install -r requirements.txt
     pip install pydantic
-    pip install uvicorn
 ```
 
 - Run the FastAPI Application
 You can run the FastAPI application using Uvicorn:
 
-```uvicorn main:app --reload```
+    ```uvicorn main:app --reload```
 
 - Access the API
 Once the server is running, you can access the API at <http://127.0.0.1:8000/info>.
@@ -53,16 +62,16 @@ Required JSON Response Format (200 OK):
 
 ```json
     {
-        "email": "your-email@example.com",
-        "current_datetime": "2025-01-30T09:30:00Z",
-        "github_url": "<https://github.com/yourusername/your-repo>"
+        "email": "johnteclaire@gmail.com",
+        "current_datetime": "2025-01-30T06:10:28Z",
+        "github_url": "https://github.com/john-otienoh/HNG-12-internship"
     }
 ```
 
 ## Backlink
 
 One backlink related to your chosen programming language/stack:
+
 <https://hng.tech/hire/python-developers>
 
 ## Live Demo
-

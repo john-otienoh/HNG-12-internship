@@ -13,7 +13,7 @@ class BasicInfo(BaseModel):
 my_info = {
     "email": "johnteclaire@gmail.com",
     "current_datetime": "",
-    "github_url": "https://github.com/john-otienoh/HNG12_Internship"    
+    "github_url": "https://github.com/john-otienoh/HNG-12-internship"    
 }
 
 @app.get("/info", response_model=BasicInfo)
