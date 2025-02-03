@@ -76,4 +76,4 @@ One backlink related to your chosen programming language/stack:
 
 ## Live Demo
 
-[https://my-info-q8rw.onrender.com/](click here)
+![https://my-info-q8rw.onrender.com/](click here)
